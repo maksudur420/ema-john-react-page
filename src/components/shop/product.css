@@ -1,0 +1,41 @@
+.product-card{
+    padding: 8px;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.product-card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.Product-info{
+    margin-bottom: 20px;
+    height: 200px;
+}
+.Product-info h4{
+    margin: 5px 0px;
+}
+.Product-info p{
+    margin: 5px 0px;
+}
+
+
+.btn-primary{
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.btn-text{
+    font-size:1rem;
+    font-weight: semibold;
+}
+@media screen and (min-width:626px) and (max-width:769px){
+    .product-card img{
+        width: 100%;
+        border-radius: 8px;
+    }
+}

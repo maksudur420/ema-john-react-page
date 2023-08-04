@@ -1,0 +1,38 @@
+.header{
+    height: 60px;
+    background: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (min-width:626px) and (max-width:769px) {
+    .header{
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        gap: 20px;
+        padding: 20px 0px;
+    }
+    
+}
+@media screen and (max-width:626px){
+    .header{
+        flex-direction: column;
+        height: auto;
+    }
+    .menu{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+}
