@@ -2,3 +2,9 @@
     position: sticky;
     top: 0;
 }
+@media screen and (min-width:626px) and (max-width:769px) {
+    .cart{
+        position: sticky;
+        top: 0;
+    }
+}
